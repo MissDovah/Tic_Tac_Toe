@@ -1,0 +1,53 @@
+body {
+  background-image: url('./images/background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#game-name {
+  text-align: center;
+  font-family: cursive;
+  font-size: xxx-large;
+  color:maroon;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.game-board {
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+  background-color: #136bc4;
+  color: rgb(255, 255, 255);
+  border: 7px solid #0059b8;
+  border-radius: 15px;
+  display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.box {
+  border: 6px solid #c7b511;
+  border-radius: 4px;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+    font-family: cursive;
+    color: rgb(230, 221, 221);
+    background-color: #860505;
+
+}
+
+.reset {
+  font-family: cursive;
+  font-size: medium;
+  margin: 2% 48%;
+  padding: 1%;
+  border-radius: 50%;
+  
+}
